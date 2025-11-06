@@ -1,10 +1,8 @@
 
-
 export default function Home() {
   return (
     <>
-    <br />
-    Página Inicial
+   <h1>Lista de Estudantes</h1>
     </>
   );
 }
