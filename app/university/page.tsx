@@ -13,6 +13,7 @@ export default async function university() {
             <td>{university.abbreviation}</td>
             <td>{university.name}</td>
             <td><a href={`/university/delete?id=${university.id}`}>Deletar</a></td>
+              <td><a href={`/university/update?id=${university.id}&name=${university.name}&abbreviation=${university.abbreviation}`}>Atualizar</a></td>
         </tr>
         )
     }
