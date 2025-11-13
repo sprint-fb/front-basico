@@ -28,7 +28,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
          <a href="/university">Listar Universidades</a>
-         <a href="/student">Cadastar Estudantes</a>
+         <a href="/university/new">Save Universidades</a>
+         <a href="/student">Listar Estudantes</a>
+         
         {children}
       </body>
     </html>

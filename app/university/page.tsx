@@ -1,6 +1,6 @@
 export default async function university() {
 
-    const response = await fetch("https://690d2daaa6d92d83e850b3f1.mockapi.io/university")
+    const response = await fetch("https://691647c2a7a34288a27cebae.mockapi.io/university")
 
     const listUniversity = await response.json();
 
@@ -12,6 +12,7 @@ export default async function university() {
             <td>{university.id}</td>
             <td>{university.abbreviation}</td>
             <td>{university.name}</td>
+            <td><a href={`/university/delete?id=${university.id}`}>Deletar</a></td>
         </tr>
         )
     }
